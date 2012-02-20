@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- $Id: package.xml 1849 2012-02-20 15:05:41Z TobiasH87 $ -->
+<package name="de.community4wcf.irc.wsbox" xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com/XSD/package.xsd">
+	<packageinformation>
+		<packagename><![CDATA[IRC User Online Client - Box]]></packagename>
+		<packagename language="de"><![CDATA[IRC User Online Client - Box]]></packagename>
+		<packagename language="de-informal"><![CDATA[IRC User Online Client - Box]]></packagename>
+		<packagedescription><![CDATA[]]></packagedescription>
+		<packagedescription language="de"><![CDATA[IRC User Online Anzeige in einer Box für das Boxensystem von WCF Solutions.]]></packagedescription>
+		<packagedescription language="de-informal"><![CDATA[IRC User Online Anzeige in einer Box für das Boxensystem von WCF Solutions.]]></packagedescription>
+		<version>1.0.0 Beta 1</version> <!-- codename: IRC User Online Client - Box -->
+		<packageurl><![CDATA[http://community4wcf.de]]></packageurl>
+		<isunique>1</isunique>
+		<date>2012-02-20</date>
+		<plugin>com.wcfsolutions.wcf.data.box</plugin>
+	</packageinformation>
+ 	
+	<!-- Icons by Everaldo: Crystal Project: http://www.everaldo.com/crystal/ ; irc_protocol.png -->
+ 
+	<licenseinformation>
+		<license><![CDATA[CC by-sa]]></license>
+		<licenseURL><![CDATA[http://creativecommons.org/licenses/by-sa/3.0/]]></licenseURL>
+	</licenseinformation>
+	<authorinformation>
+		<author><![CDATA[Marco Daries, TobiasH]]></author>
+		<authorurl><![CDATA[http://mada-network.de]]></authorurl>
+	</authorinformation>
+	
+	<requiredpackages>
+		<requiredpackage minversion="1.1.2 pl 1">com.wcfsolutions.wcf.data.box</requiredpackage>
+		<requiredpackage minversion="1.1.8">com.woltlab.wcf</requiredpackage>
+		<requiredpackage minversion="1.0.1">de.community4wcf.irc.wcf</requiredpackage>
+	</requiredpackages>
+
+	<instructions type="install">
+		<!-- files -->
+		<files>files.tar</files>
+		<templates>templates.tar</templates>
+		<!-- config -->
+		<boxtabtype>xml/boxtabtype.xml</boxtabtype>
+		<!-- <eventlistener>xml/eventlistener.xml</eventlistener> -->
+		<!-- <boxtaboptions>xml/boxtaboptions.xml</boxtaboptions> -->
+		<!-- <groupoptions>xml/groupoptions.xml</groupoptions> -->
+		<!-- languages -->
+		<!--
+		<languages languagecode="de">xml/de.xml</languages>
+		<languages languagecode="de-informal">xml/de-informal.xml</languages>
+		<languages languagecode="en">xml/en.xml</languages>
+		-->
+	</instructions>
+	<instructions type="update" fromversion="*">	
+		<!-- files -->
+		<files>files.tar</files>
+		<templates>templates.tar</templates>
+		<!-- config -->
+		<boxtabtype>xml/boxtabtype.xml</boxtabtype>
+		<!-- <eventlistener>xml/eventlistener.xml</eventlistener> -->
+		<!-- <boxtaboptions>xml/boxtaboptions.xml</boxtaboptions> -->
+		<!-- <groupoptions>xml/groupoptions.xml</groupoptions> -->
+		<!-- languages -->
+		<!--
+		<languages languagecode="de">xml/de.xml</languages>
+		<languages languagecode="de-informal">xml/de-informal.xml</languages>
+		<languages languagecode="en">xml/en.xml</languages>
+		-->
+	</instructions>	
+</package>

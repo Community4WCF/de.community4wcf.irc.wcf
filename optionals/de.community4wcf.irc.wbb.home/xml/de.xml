@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com/XSD/language.xsd" languagecode="de">
+	<!-- wcf.acp.group -->
+	<category name="wcf.acp.group">
+		<item name="wcf.acp.group.option.user.home.canViewIRCUserOnline"><![CDATA[Kann IRC User Online auf der Startseite sehen.]]></item>
+	    <item name="wcf.acp.group.option.user.home.canViewIRCUserOnline.description"><![CDATA[Mitglieder dieser Gruppe können IRC User Online auf der Startseite sehen.]]></item>
+	</category>
+	
+	<!-- wbb.home -->
+	<category name="wbb.home">
+		<item name="wbb.home.sidebar.ircuseronline"><![CDATA[IRC-Channel(s):]]></item>
+		<item name="wbb.home.sidebar.ircuseronline.channeluser"><![CDATA[Benutzer online]]></item>
+	</category>
+</language>

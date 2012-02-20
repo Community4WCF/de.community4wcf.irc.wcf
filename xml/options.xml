@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com/XSD/options.xsd">
+	<import>
+		<categories>
+			<category name="ircuseronline"></category>
+			
+			<category name="ircuseronline.general">
+				<parent>ircuseronline</parent>
+				<showorder>1</showorder>
+			</category>
+			<category name="ircuseronline.display">
+				<parent>ircuseronline</parent>
+				<showorder>2</showorder>
+			</category>
+		</categories>
+		
+		<options>
+			<option name="ircuseronline_uniqueid">
+				<categoryname>ircuseronline.general</categoryname>
+				<optiontype>text</optiontype>
+				<showorder>1</showorder>
+			</option>
+			<option name="ircuseronline_cachetime">
+				<categoryname>ircuseronline.general</categoryname>
+				<optiontype>integer</optiontype>
+				<defaultvalue>300</defaultvalue>
+				<showorder>2</showorder>
+			</option>
+			<option name="ircuseronline_color_op">
+				<categoryname>ircuseronline.display</categoryname>
+				<optiontype>colorchooser</optiontype>
+				<defaultvalue><![CDATA[#e33]]></defaultvalue>
+				<showorder>1</showorder>
+				<validationpattern><![CDATA[^([\#]{1}([0-9a-fA-F]{3}|[0-9a-fA-F]{6}))?$]]></validationpattern>
+			</option>
+			<option name="ircuseronline_color_voice">
+				<categoryname>ircuseronline.display</categoryname>
+				<optiontype>colorchooser</optiontype>
+				<defaultvalue><![CDATA[#30f]]></defaultvalue>
+				<showorder>2</showorder>
+				<validationpattern><![CDATA[^([\#]{1}([0-9a-fA-F]{3}|[0-9a-fA-F]{6}))?$]]></validationpattern>
+			</option>
+		</options>
+	</import>
+</data>

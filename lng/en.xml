@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com/XSD/language.xsd" languagecode="en">
+	<category name="wcf.acp.option">
+		<item name="wcf.acp.option.category.ircuseronline"><![CDATA[IRC User Online Client]]></item>
+		<item name="wcf.acp.option.category.ircuseronline.description"><![CDATA[]]></item>
+		<item name="wcf.acp.option.category.ircuseronline.general"><![CDATA[General]]></item>
+		<item name="wcf.acp.option.category.ircuseronline.general.description"><![CDATA[]]></item>
+		<item name="wcf.acp.option.category.ircuseronline.display"><![CDATA[Display]]></item>
+		<item name="wcf.acp.option.category.ircuseronline.display.description"><![CDATA[]]></item>
+		<item name="wcf.acp.option.ircuseronline_color_op"><![CDATA[Font color for the irc op]]></item>
+		<item name="wcf.acp.option.ircuseronline_color_op.description"><![CDATA[Choose the font color for the irc from op]]></item>
+		<item name="wcf.acp.option.ircuseronline_color_voice"><![CDATA[Font color for the irc voice]]></item>
+		<item name="wcf.acp.option.ircuseronline_color_voice.description"><![CDATA[Choose the font color for the irc from voice]]></item>
+		<item name="wcf.acp.option.ircuseronline_cachetime"><![CDATA[Cache validity]]></item>
+		<item name="wcf.acp.option.ircuseronline_cachetime.description"><![CDATA[Time when the cache of the irc user online valid. Indicated in seconds.]]></item>
+		<item name="wcf.acp.option.ircuseronline_uniqueid"><![CDATA[UniqueID]]></item>
+		<item name="wcf.acp.option.ircuseronline_uniqueid.description"><![CDATA[Please enter your uniqueID. Please case sensitive.]]></item>
+	</category>
+</language> 

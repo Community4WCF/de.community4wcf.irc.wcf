@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- $Id: de-informal.xml 1744 2011-02-07 17:57:08Z TobiasH87 $ -->
+<language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com/XSD/language.xsd" languagecode="de-informal">
+	<category name="wcf.acp.group">
+		<item name="wcf.acp.group.option.user.portal.boxes.canViewIRCUserOnline"><![CDATA[Kann Box "IRC User Online" sehen]]></item>
+		<item name="wcf.acp.group.option.user.portal.boxes.canViewIRCUserOnline.description"><![CDATA[Mitglieder dieser Gruppe können IRC User Online Box sehen.]]></item>
+	</category>
+
+	<category name="wbb.portal">
+		<item name="wbb.portal.box.ircuseronline.title"><![CDATA[IRC-Channel(s)]]></item>
+		<item name="wbb.portal.box.ircuseronline.channeluser"><![CDATA[Benutzer online]]></item>
+	</category>
+</language>
