@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- $Id: boxtaboptions.xml 1856 2012-02-24 17:40:30Z TobiasH87 $ -->
+<data xmlns="http://www.wcfsolutions.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.wcfsolutions.com/XSD/box-tab-options.xsd">
+	<import>
+		<options>			
+			<option name="enableLegend">
+				<boxtabtype>ircuseronline</boxtabtype>
+				<categoryname>settings</categoryname>
+				<optiontype>boolean</optiontype>
+				<defaultvalue>0</defaultvalue>
+			</option>
+		</options>
+	</import>
+</data>

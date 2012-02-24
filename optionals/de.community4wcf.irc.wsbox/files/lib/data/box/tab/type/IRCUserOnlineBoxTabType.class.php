@@ -7,7 +7,7 @@ require_once(WCF_DIR.'lib/data/box/tab/type/AbstractBoxTabType.class.php');
  * @copyright	2012 MaDa-Network.de
  * @website		mada-network.de
  * @package		de.community4wcf.irc.wsbox
- * @svn			$Id: IRCUserOnlineBoxTabType.class.php 1850 2012-02-20 15:06:26Z TobiasH87 $
+ * @svn			$Id: IRCUserOnlineBoxTabType.class.php 1859 2012-02-24 19:00:08Z TobiasH87 $
  */
  
 class IRCUserOnlineBoxTabType extends AbstractBoxTabType {
@@ -21,6 +21,13 @@ class IRCUserOnlineBoxTabType extends AbstractBoxTabType {
 		$datas = WCF::getCache()->get('ircUserOnline');
 		
 		WCF::getTPL()->assign(array('datas' => $datas));
+	}
+	
+	/**
+	 * @see	BoxTabType::isAccessible()
+	 */
+	public function isAccessible(BoxTab $boxTab) {
+		return (WCF::getUser()->getPermission('canViewIRCUserOnlineBox'));
 	}
 	
 	/**
