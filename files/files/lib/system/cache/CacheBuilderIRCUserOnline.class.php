@@ -16,6 +16,7 @@ class CacheBuilderIRCUserOnline implements CacheBuilder {
 	public function getData($cacheResource) {
 		$data = array();
 
+		//if (@fsockopen('irc.european-network.eu', 80, $errnum, $errstr, 2)){
 		$sourceURL = 'http://irc.european-network.eu/index.php?page=IRCServiceReadDatas&uniqueID='.IRCUSERONLINE_UNIQUEID;
 		$filename = FileUtil::downloadFileFromHttp($sourceURL, 'ircService');
 	
@@ -37,7 +38,7 @@ class CacheBuilderIRCUserOnline implements CacheBuilder {
 			
 			$count++;
 		}
-		
+		//}
 		return $data;
 	}	
 }
