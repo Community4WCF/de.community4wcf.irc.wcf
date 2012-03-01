@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- $Id: groupoptions.xml 1874 2012-03-01 18:03:44Z TobiasH87 $ -->
+<data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com/XSD/group-options.xsd">
+	<import>
+		<categories>				
+			<category name="user.profile.ircuseronline">
+				<parent>user.profile</parent>	
+			</category>
+		</categories>
+		<options>
+			<option name="canViewIRCUserOnline">
+				<categoryname>user.profile.ircuseronline</categoryname>      
+				<optiontype>boolean</optiontype>
+				<defaultvalue>0</defaultvalue>
+			</option>
+		</options>
+	</import>
+</data>

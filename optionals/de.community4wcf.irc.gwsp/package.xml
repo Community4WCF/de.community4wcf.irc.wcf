@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<!-- $Id: package.xml 1780 2011-03-02 16:38:51Z TobiasH87 $ -->
+<!-- $Id: package.xml 1878 2012-03-01 20:47:59Z TobiasH87 $ -->
 <package name="de.community4wcf.irc.gwsp" xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com/XSD/package.xsd">
 	<packageinformation>
 		<packagename><![CDATA[IRC User Online Client - GWSP]]></packagename>
@@ -8,10 +8,10 @@
 		<packagedescription><![CDATA[]]></packagedescription>
 		<packagedescription language="de"><![CDATA[IRC User Online Anzeige auf der Startseite vom Gewinnspiel von Inside-das-Hoerspiel.]]></packagedescription>
 		<packagedescription language="de-informal"><![CDATA[IRC User Online Anzeige auf der Startseite vom Gewinnspiel von Inside-das-Hoerspiel.]]></packagedescription>
-		<version>1.0.0</version> <!-- codename: IRC User Online Client - GWSP -->
+		<version>1.0.1</version> <!-- codename: IRC User Online Client - GWSP -->
 		<packageurl><![CDATA[http://community4wcf.de]]></packageurl>
 		<isunique>0</isunique>
-		<date>2011-02-06</date>
+		<date>2012-03-01</date>
 		<plugin>de.inside.gwsp</plugin>
 	</packageinformation>
  	
@@ -28,8 +28,9 @@
 	
 	<requiredpackages>
 		<requiredpackage minversion="2.1.0 RC 4">de.inside.gwsp</requiredpackage>
-		<requiredpackage minversion="1.1.3">com.woltlab.wcf</requiredpackage>
-		<requiredpackage minversion="1.0.0">de.community4wcf.irc.wcf</requiredpackage>
+		<requiredpackage minversion="1.1.8">com.woltlab.wcf</requiredpackage>
+		<requiredpackage minversion="1.0.2">de.community4wcf.irc.wcf</requiredpackage>
+		<requiredpackage minversion="1.0.0" file="requirements/com.woltlab.community.gwsp.index.additionalBoxes.tar">com.woltlab.community.gwsp.index.additionalBoxes</requiredpackage>
 	</requiredpackages>
 
 	<instructions type="install">
@@ -46,7 +47,14 @@
 	</instructions>
 	<instructions type="update" fromversion="*">	
 		<!-- files -->
+		<files>files.tar</files>
+		<templates>templates.tar</templates>
 		<!-- config -->
+		<groupoptions>xml/groupoptions.xml</groupoptions>
+		<eventlistener>xml/eventlistener.xml</eventlistener>
 		<!-- languages -->
+		<languages languagecode="de">xml/de.xml</languages>
+		<languages languagecode="de-informal">xml/de-informal.xml</languages>
+		<languages languagecode="en">xml/en.xml</languages>
 	</instructions>	
 </package>

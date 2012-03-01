@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- $Id: eventlistener.xml 1881 2012-03-01 21:07:33Z TobiasH87 $ -->
+<data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com/XSD/eventlistener.xsd">
+	<import>
+		<eventlistener>
+			<eventclassname>IndexPage</eventclassname>
+			<eventname>assignVariables</eventname>
+			<environment>user</environment>
+			<listenerclassfile>lib/system/event/listener/IndexPageadditionalBoxesListener.class.php</listenerclassfile>
+		</eventlistener>
+	</import>
+</data>
