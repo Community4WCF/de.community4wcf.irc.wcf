@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com/XSD/language.xsd" languagecode="de">
+	<category name="wcf.acp.group">
+		<item name="wcf.acp.group.option.category.user.profile.ircuseronline"><![CDATA[IRC User Online]]></item>
+		<item name="wcf.acp.group.option.category.user.profile.ircuseronline.description"><![CDATA[]]></item>
+		<item name="wcf.acp.group.option.canViewIRCUserOnlineActivity"><![CDATA[Kann IRC User Online Aktivitäten sehen.]]></item>
+		<item name="wcf.acp.group.option.canViewIRCUserOnlineActivity.description"><![CDATA[Mitglieder dieser Gruppe können IRC User Online Aktivitäten sehen.]]></item>
+	</category>
+	
+	<category name="wcf.activityfeed.boxcontenttype">
+		<item name="wcf.activityfeed.boxcontenttype.ircuseronline.title"><![CDATA[IRC User Online]]></item>
+		<item name="wcf.activityfeed.boxcontenttype.ircuseronline.channeluser"><![CDATA[Benutzer online]]></item>
+		<item name="wcf.activityfeed.boxcontenttype.ircuseronline.nouseronline"><![CDATA[Keine Benutzer online!]]></item>
+	</category>
+</language>
