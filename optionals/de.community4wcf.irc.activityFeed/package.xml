@@ -7,10 +7,10 @@
 		<packagedescription><![CDATA[]]></packagedescription>
 		<packagedescription language="de"><![CDATA[IRC User Online Anzeige für die Aktivitäten Seite (von gnex.org).]]></packagedescription>
 		<packagedescription language="de-informal"><![CDATA[IRC User Online Anzeige für die Aktivitäten Seite (von gnex.org).]]></packagedescription>
-		<version>1.0.0 RC 2</version> <!-- codename: IRC User Online Client - Activity -->
+		<version>1.0.0</version> <!-- codename: IRC User Online Client - Activity -->
 		<packageurl><![CDATA[http://community4wcf.de]]></packageurl>
 		<isunique>1</isunique>
-		<date>2012-10-30</date>
+		<date>2012-10-31</date>
 		<plugin>com.woltlab.wcf.data.page</plugin>
 	</packageinformation>
  	

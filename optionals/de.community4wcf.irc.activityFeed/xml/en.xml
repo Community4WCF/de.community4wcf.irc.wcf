@@ -12,11 +12,13 @@
 		<item name="wcf.activityfeed.boxcontenttype.ircuseronline.channeluser"><![CDATA[user online]]></item>
 		<item name="wcf.activityfeed.boxcontenttype.ircuseronline.nouseronline"><![CDATA[No users online!]]></item>
 		
+		<!--
 		<item name="wcf.activityfeed.boxcontenttype.ircuseronline.enableLegend"><![CDATA[Legend show]]></item>
 		<item name="wcf.activityfeed.boxcontenttype.ircuseronline.enableLegend.description"><![CDATA[]]></item>
 		
 		<item name="wcf.activityfeed.boxcontenttype.ircuseronline.legende"><![CDATA[Legend]]></item>
 		<item name="wcf.activityfeed.boxcontenttype.ircuseronline.op"><![CDATA[IRC-OP]]></item>
 		<item name="wcf.activityfeed.boxcontenttype.ircuseronline.voice"><![CDATA[IRC-Voice]]></item>
+		-->
 	</category>
 </language> 

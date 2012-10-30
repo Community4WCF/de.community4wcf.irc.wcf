@@ -12,11 +12,13 @@
 		<item name="wcf.activityfeed.boxcontenttype.ircuseronline.channeluser"><![CDATA[Benutzer online]]></item>
 		<item name="wcf.activityfeed.boxcontenttype.ircuseronline.nouseronline"><![CDATA[Keine Benutzer online!]]></item>
 		
+		<!--
 		<item name="wcf.activityfeed.boxcontenttype.ircuseronline.enableLegend"><![CDATA[Legende anzeigen]]></item>
 		<item name="wcf.activityfeed.boxcontenttype.ircuseronline.enableLegend.description"><![CDATA[Aktiviere diese Option, wenn eine Legende unterhalb der IRC User Online angezeigt werden soll.]]></item>
 		
 		<item name="wcf.activityfeed.boxcontenttype.ircuseronline.legende"><![CDATA[Legende]]></item>
 		<item name="wcf.activityfeed.boxcontenttype.ircuseronline.op"><![CDATA[IRC-OP]]></item>
 		<item name="wcf.activityfeed.boxcontenttype.ircuseronline.voice"><![CDATA[IRC-Voice]]></item>
+		-->
 	</category>
 </language> 
