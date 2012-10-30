@@ -6,9 +6,10 @@
 				<parent>user.profile</parent>	
 			</category>
 		</categories>
+		<!-- categories / options -->
 		<options>
 			<option name="canViewIRCUserOnlineActivity">
-				<categoryname>user.profile.ircuseronline</categoryname>      
+				<categoryname>user.profile.ircuseronline</categoryname> <!-- or: user.activityfeed -->
 				<optiontype>boolean</optiontype>
 				<defaultvalue>0</defaultvalue>
 			</option>

@@ -3,7 +3,7 @@
 	<import>
 		<activityfeedboxcontenttype>
 			<contentType>ircuseronline</contentType>
-			<classFile>lib/data/IRCUserOnlineActivityFeedBoxContentType.class.php</classFile>
+			<classFile>lib/data/user/IRCUserOnlineActivityFeedBoxContentType.class.php</classFile>
 			<!--
 			<iconSmall>ircS.png</iconSmall>
 			<iconMedium>ircM</iconMedium>
