@@ -4,9 +4,8 @@ require_once(WCF_DIR.'lib/system/event/EventListener.class.php');
 
 /**
  * @package		de.community4wcf.irc.wbb.start
- * @svn			$Id: StartPageIRCUserOnlineListener.class.php 1829 2011-08-31 12:47:05Z TobiasH87 $
  */
-class StartPageIRCUserOnlineListener implements EventListener {
+class StartPageIrcUserOnlineStartBoxListener implements EventListener {
 	/**
 	 * @see EventListener::execute()
 	 */
@@ -14,7 +13,7 @@ class StartPageIRCUserOnlineListener implements EventListener {
 		$datas = array();
 		
 		// check permission
-		if(!WCF::getUser()->getPermission('user.start.canViewIRCUserOnline')) return;
+		#if(!WCF::getUser()->getPermission('user.start.canViewIRCUserOnline')) return;
 		
 		// register cache
 		WCF::getCache()->addResource('ircUserOnline', WCF_DIR.'cache/cache.ircUserOnline.php', WCF_DIR.'lib/system/cache/CacheBuilderIRCUserOnline.class.php', 0, IRCUSERONLINE_CACHETIME);

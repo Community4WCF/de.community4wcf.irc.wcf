@@ -8,10 +8,10 @@
 		<packagedescription><![CDATA[]]></packagedescription>
 		<packagedescription language="de"><![CDATA[]]></packagedescription>
 		<packagedescription language="de-informal"><![CDATA[]]></packagedescription>
-		<version>1.0.0</version> <!-- codename: IRC User Online Client - WBB - Startpage -->
+		<version>1.0.1</version> <!-- codename: IRC User Online Client - WBB - Startpage -->
 		<packageurl><![CDATA[http://community4wcf.de]]></packageurl>
 		<isunique>0</isunique>
-		<date>2011-08-31</date>
+		<date>2013-02-18</date>
 		<isunique>0</isunique>
 		<plugin>com.woltlab.wbb</plugin>
 	</packageinformation>
@@ -29,9 +29,9 @@
  
 	<requiredpackages>
 		<requiredpackage minversion="2.1.1">com.woltlab.wbb</requiredpackage>
-		<requiredpackage minversion="1.1.8">com.woltlab.wcf</requiredpackage>
-		<requiredpackage minversion="1.0.1">de.community4wcf.irc.wcf</requiredpackage>
-		<requiredpackage minversion="2.1.2">de.codequake.page.start</requiredpackage>
+		<requiredpackage minversion="1.1.9">com.woltlab.wcf</requiredpackage>
+		<requiredpackage minversion="1.0.2">de.community4wcf.irc.wcf</requiredpackage>
+		<requiredpackage minversion="3.0.0 RC 1">de.codequake.page.start</requiredpackage>
 	</requiredpackages>
 	<excludedpackages>
 		<excludedpackage>de.madanetwork.irc.useronline</excludedpackage>
@@ -42,23 +42,16 @@
 		<files>files.tar</files>
 		<templates>templates.tar</templates>
 		<!-- config -->
-		<groupoptions>xml/groupoptions.xml</groupoptions>
-		<eventlistener>xml/eventlistener.xml</eventlistener>
+		<boxes>xml/boxes.xml</boxes>
+		<!--<groupoptions>xml/groupoptions.xml</groupoptions>-->
 		<!-- languages -->
 		<languages languagecode="de">xml/de.xml</languages>
 		<languages languagecode="de-informal">xml/de-informal.xml</languages>
 		<languages languagecode="en">xml/en.xml</languages>
 	</instructions>
+	<!--
 	<instructions type="update" fromversion="*">	
-		<!-- files -->
-		<files>files.tar</files>
-		<templates>templates.tar</templates>
-		<!-- config -->
-		<groupoptions>xml/groupoptions.xml</groupoptions>
-		<eventlistener>xml/eventlistener.xml</eventlistener>
-		<!-- languages -->
-		<languages languagecode="de">xml/de.xml</languages>
-		<languages languagecode="de-informal">xml/de-informal.xml</languages>
-		<languages languagecode="en">xml/en.xml</languages>
-	</instructions>	
+		
+	</instructions>
+	-->
 </package>

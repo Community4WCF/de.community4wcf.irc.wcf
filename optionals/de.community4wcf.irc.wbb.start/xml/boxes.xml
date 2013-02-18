@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<data>
+	<import>
+		<box>
+			<boxname>ircUserOnlineStart</boxname>
+			<boxtype>right</boxtype>
+			<showorder>2</showorder>
+			<active>1</active>
+			<event>1</event>
+		</box>
+	</import>
+</data>
