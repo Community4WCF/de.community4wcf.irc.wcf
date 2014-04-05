@@ -4,9 +4,8 @@ require_once(WCF_DIR.'lib/system/cache/CacheBuilder.class.php');
 
 /**
  * @author		Marco Daries
- * @copyright	2011 - 2012 MaDa-Network.de
- * @website		mada-network.de
- * @svn			$Id: CacheBuilderIRCUserOnline.class.php 1863 2012-02-28 14:52:27Z TobiasH87 $
+ * @copyright	2011 - 2014 MaDa-Network.de
+ * @website		mada-network.de & community4wcf.de
  */
  
 class CacheBuilderIRCUserOnline implements CacheBuilder {
@@ -16,7 +15,7 @@ class CacheBuilderIRCUserOnline implements CacheBuilder {
 	public function getData($cacheResource) {
 		$data = array();
 		
-		$sourceURL = 'http://irc.european-network.eu/index.php?page=IRCServiceReadDatas&uniqueID='.IRCUSERONLINE_UNIQUEID;
+		$sourceURL = 'https://ircservices.ison.ws/index.php?page=IRCServiceReadDatas&uniqueID='.IRCUSERONLINE_UNIQUEID;
 	
 		$xml = @simplexml_load_file($sourceURL);
 		if(!empty($xml)) {
