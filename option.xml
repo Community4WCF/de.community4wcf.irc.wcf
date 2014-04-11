@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/maelstrom/option.xsd">
+	<import>
+		<categories>
+			<category name="user.list.ircuseronline">
+				<parent>user.list</parent>
+				<options>module_ircuseronline</options>
+			</category>
+		</categories>
+	
+		<options>
+			<!-- module options -->
+			<option name="module_ircuseronline">
+				<categoryname>module.content</categoryname>
+				<optiontype>boolean</optiontype>
+				<defaultvalue>1</defaultvalue>
+			</option>
+			<!-- /module options -->
+			<option name="ircuseronline_uniqueid">
+				<categoryname>user.list.ircuseronline</categoryname>
+				<optiontype>text</optiontype>
+				<showorder>1</showorder>
+			</option>
+			<option name="ircuseronline_cachetime">
+				<categoryname>user.list.ircuseronline</categoryname>
+				<optiontype>integer</optiontype>
+				<defaultvalue>300</defaultvalue>
+				<showorder>2</showorder>
+			</option>
+			<option name="ircuseronline_color_op">
+				<categoryname>user.list.ircuseronline</categoryname>
+				<optiontype>text</optiontype>
+				<defaultvalue><![CDATA[#e33]]></defaultvalue>
+				<showorder>3</showorder>
+				<validationpattern><![CDATA[^([\#]{1}([0-9a-fA-F]{3}|[0-9a-fA-F]{6}))?$]]></validationpattern>
+			</option>
+			<option name="ircuseronline_color_voice">
+				<categoryname>user.list.ircuseronline</categoryname>
+				<optiontype>text</optiontype>
+				<defaultvalue><![CDATA[#30f]]></defaultvalue>
+				<showorder>4</showorder>
+				<validationpattern><![CDATA[^([\#]{1}([0-9a-fA-F]{3}|[0-9a-fA-F]{6}))?$]]></validationpattern>
+			</option>
+		</options>
+	</import>
+</data>

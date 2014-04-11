@@ -1,4 +1,4 @@
-IRC User Online Client - WCF
+IRC User Online Client - WCF 2
 ============================
 
 Download and more
