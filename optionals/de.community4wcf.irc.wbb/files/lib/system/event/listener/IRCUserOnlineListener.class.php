@@ -15,21 +15,21 @@ use wcf\system\WCF;
  * @category	Community Framework
  */
 
-class IRCUserOnlineListener implements EventListener {
-        /**
-         * @see EventListener::execute()
-         */
+class IRCUserOnlineListener implements IEventListener {
+	/**
+	 * @see	\wcf\system\event\IEventListener::execute()
+	 */
 	public function execute($eventObj, $className, $eventName) {
-		$datas = array();
-
-		if(!WCF::getUser()->getPermission('user.profile.canViewIRCUserOnline')) return;
+		if (!WCF::getSession()->getPermission('user.profile.canViewIRCUserOnline')) return;
 		
-		WCF::getCache()->addResource('ircUserOnline', WCF_DIR.'cache/cache.ircUserOnline.php', WCF_DIR.'lib/system/cache/CacheBuilderIRCUserOnline.class.php', 0, IRCUSERONLINE_CACHETIME);
+		$datas = array();
+		
+		WCF::getCache()->addResource('ircUserOnline', 'wcf\cache\cache.ircUserOnline.php', 'wcf\lib\system\cache\CacheBuilderIRCUserOnline.class.php', 0, IRCUSERONLINE_CACHETIME);
 		$datas = WCF::getCache()->get('ircUserOnline');
 		
 		if(count($datas) > 0) {
 			WCF::getTPL()->assign(array('datas' => $datas));
-			WCF::getTPL()->append('additionalBoxes', WCF::getTPL()->fetch('ircUserOnline'));
+			//WCF::getTPL()->append('additionalBoxes', WCF::getTPL()->fetch('ircUserOnline'));
 		}
 	}
 }
