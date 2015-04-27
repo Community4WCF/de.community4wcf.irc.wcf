@@ -4,7 +4,7 @@ IRC User Online Client - WCF
 Download and more
 -----------------
 - https://community4wcf.eu/filebase/index.php?page=Category&categoryID=23
-- https://ircservices.ison.ws/
+- Service (only for the IRC provider): https://github.com/Community4WCF/de.community4wcf.irc.service
 
 
 License
